@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EpisodeDetails renders EpisodeDetails component 1`] = `
+<div>
+  InfoCard
+</div>
+`;
+
+exports[`getProps return formed data 1`] = `
+Object {
+  "props": Object {
+    "initialReduxState": Object {
+      "episodes": Object {
+        "viewedEpisode": 1,
+      },
+    },
+  },
+}
+`;
+
+exports[`getProps return formed data when data is empty 1`] = `
+Object {
+  "props": Object {
+    "initialReduxState": Object {
+      "episodes": Object {},
+    },
+  },
+}
+`;

@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SeriesDetails renders SeriesDetails component 1`] = `
+<div>
+  InfoCard
+  EpisodesList
+</div>
+`;
+
+exports[`getProps return formed data 1`] = `
+Object {
+  "props": Object {
+    "initialReduxState": Object {
+      "episodes": Array [],
+      "genres": "genres",
+      "image": "/img.png",
+      "language": "language",
+      "name": "name",
+      "rating": 1,
+      "status": "status",
+      "summary": "summary",
+      "type": "type",
+    },
+  },
+}
+`;
+
+exports[`getProps return formed data when data is empty 1`] = `
+Object {
+  "props": Object {
+    "initialReduxState": Object {},
+  },
+}
+`;

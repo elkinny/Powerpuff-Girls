@@ -1,0 +1,14 @@
+@import 'constants';
+
+@mixin respond($breakpoint) {
+  $raw-query: map-get($breakpoints, $breakpoint);
+  $query: if(
+    type-of($raw-query) == 'string',
+    unquote($raw-query),
+    inspect($raw-query)
+  );
+
+  @media #{$query} {
+    @content;
+  }
+}
