@@ -1,0 +1,20 @@
+$colour-black: #14151b;
+$colour-grey: #1f2833;
+$colour-steal: #b3b3b3;
+$colour-blue: #66d9fc;
+$colour-teal: #4588a2;
+$colour-white: #fff;
+$colour-yellow: #FFD700;
+
+$bg-colour: $colour-black;
+$h1h2h3-colour: $colour-blue;
+$h4h5h6-colour: $colour-steal;
+$font-colour: $colour-white;
+$contrast-colour: $colour-teal;
+
+$breakpoints: (
+  sm: (min-width: 359px),
+  md: (min-width: 784px),
+  lg: (min-width: 1024px),
+  xxl: (min-width: 1646px),
+);

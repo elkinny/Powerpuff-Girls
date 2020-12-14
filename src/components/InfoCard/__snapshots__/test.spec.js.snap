@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InfoCard renders InfoCard component with full data 1`] = `
+<div
+  class="row"
+>
+  <div>
+    <img
+      alt="name"
+      src="/placeholder.png"
+    />
+    <div>
+      <span>
+        picDetail1
+      </span>
+      <span>
+        picDetail2
+      </span>
+    </div>
+  </div>
+  <div>
+    <h1>
+      name
+      <span>
+        subTitle
+      </span>
+    </h1>
+    <div>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    </div>
+    <a
+      href="/"
+    >
+      FontAwesomeIcon
+      link
+    </a>
+    <div>
+      <p>
+        detail1
+      </p>
+      <p>
+        detail2
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`InfoCard renders InfoCard component with no picDetails, details and link, but with isColumn 1`] = `
+<div>
+  <div
+    class=""
+  >
+    <div>
+      <img
+        alt="name"
+        src="/placeholder.png"
+      />
+      <div />
+    </div>
+    <div>
+      <h1>
+        name
+        <span>
+          subTitle
+        </span>
+      </h1>
+      <div>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </div>
+      <div />
+    </div>
+  </div>
+</div>
+`;

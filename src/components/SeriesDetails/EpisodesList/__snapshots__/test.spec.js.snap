@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EpisodesList renders EpisodesList component 1`] = `
+<div>
+  Episode: {"number":1,"image":"/img.png"}
+  Episode: {"number":2,"image":"/img.png"}
+</div>
+`;
+
+exports[`EpisodesList renders EpisodesList component without passed image url 1`] = `
+<div>
+  Episode: {"number":1,"image":"/placeholder.png"}
+  Episode: {"number":2,"image":"/placeholder.png"}
+</div>
+`;

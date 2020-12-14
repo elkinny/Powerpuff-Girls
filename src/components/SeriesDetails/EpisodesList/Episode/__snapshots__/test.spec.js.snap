@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Episode renders Episode component 1`] = `
+<div
+  style="background-image: url(/placeholder.png);"
+>
+  <div>
+    <span>
+      Episode Name
+    </span>
+  </div>
+  <span>
+    1
+    .
+    4
+  </span>
+</div>
+`;

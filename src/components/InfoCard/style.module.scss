@@ -1,0 +1,140 @@
+@import '../../styles/constants';
+@import '../../styles/mixins';
+
+.description {
+  display: flex;
+  max-width: 800px;
+  margin: 0 auto 100px;
+  flex-direction: column;
+  align-items: center;
+
+  &.row {
+    @include respond('md') {
+      flex-direction: row;
+    }
+    
+    .header {
+      font-size: 35px;
+
+      @include respond('lg') {
+        font-size: 45px;
+      }
+
+      @include respond('md') {
+        text-align: left;
+      }
+    }
+
+    .text {
+      @include respond('md') {
+        margin-left: 60px;
+      }
+    }
+
+    .picture {
+      height: 400px;
+
+      @include respond('sm') {
+        height: 400px;
+      }
+    }
+  }
+
+  .header {
+    margin: 20px 0 40px;
+    text-align: center;
+    font-size: 45px;
+    line-height: 50px;
+
+    .subtitle {
+      color: $colour-white;
+      font-size: 14px;
+      margin-left: 10px;
+
+      svg {
+        color: $colour-white;
+        margin: 0 3px;
+        height: 10px;
+        margin-top: 0;
+        display: inline-block;
+      }
+    }
+  }
+
+  .picture {
+    display: block;
+    height: 100px;
+    box-shadow: 4px 4px 20px #000;
+    margin: auto;
+
+    @include respond('sm') {
+      height: 200px;
+    }
+
+    @include respond('md') {
+      height: 400px;
+    }
+  }
+
+  .pic-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+
+    .pic-detail {
+      display: block;
+      padding: 5px 15px;
+      background-color: $colour-grey;
+      margin: 7px;
+      border-radius: 4px;
+    }
+  }
+
+  .text {
+    .summary {
+      p {
+        text-align: justify;
+      }
+    }
+
+    .details {
+      margin-top: 40px;
+      color: $colour-steal;
+
+      p {
+        margin: 10px 0;
+
+        svg {
+          display: inline-block;
+          margin-right: 10px;
+          margin-bottom: -3px;
+          color: $colour-white;
+          height: 20px;
+        }
+      }
+    }
+
+    .link {
+      color: $colour-blue;
+      font-weight: bold;
+      font-size: 20px;
+      padding: 6px 12px;
+      border-bottom: 1px solid $colour-blue;
+
+      &:hover {
+        svg {
+          transform: translateX(6px);
+        }
+      }
+
+      svg {
+        height: 20px;
+        margin-right: 10px;
+        margin-bottom: -3px;
+        transition: all 0.5s;
+      }
+    }
+  }
+}

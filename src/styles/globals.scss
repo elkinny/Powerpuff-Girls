@@ -1,0 +1,34 @@
+@import 'constants';
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font: 16px/30px "Lato", Arial, sans-serif;
+  color: $font-colour;
+  background-color: $bg-colour;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1, h2, h3 {
+  color: $h1h2h3-colour;
+}
+
+h4, h5, h6 {
+  color: $h4h5h6-colour;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 100px auto 140px;
+  padding: 0 20px;
+}
